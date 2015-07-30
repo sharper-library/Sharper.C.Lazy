@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using static System.Runtime.CompilerServices.MethodImplOptions;
 
-namespace Sharper.C
+namespace Sharper.C.Data
 {
     public static class LazyFn
     {
