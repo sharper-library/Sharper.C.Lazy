@@ -4,13 +4,10 @@ using static System.Runtime.CompilerServices.MethodImplOptions;
 
 namespace Sharper.C
 {
-    public static class LazyOps
+    public static class LazyFn
     {
         [MethodImpl(AggressiveInlining)]
         public static Lazy<A> Defer<A>(Func<A> f) => new Lazy<A>(f);
-
-        [MethodImpl(AggressiveInlining)]
-        public static Lazy<A> Now<A>(A a) => new Lazy<A>(() => a);
 
         public static Func<A> Thunk<A>(Lazy<A> la) => () => la.Value;
 

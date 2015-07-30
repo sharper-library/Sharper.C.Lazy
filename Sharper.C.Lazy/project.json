@@ -1,0 +1,16 @@
+﻿{
+    "version": "0.1.1-*",
+    "description": "Operations on Lazy.",
+    "authors": [ "Jeremy Hughes" ],
+    "tags": [ "" ],
+    "projectUrl": "https://github.com/sharper-library/Sharper.C.Lazy",
+    "licenseUrl": "https://raw.githubusercontent.com/sharper-library/Sharper.C.Lazy/master/LICENSE.txt",
+
+    "dependencies": {
+        "System.Runtime": "4.0.20"
+    },
+
+    "frameworks": {
+        "dotnet": { }
+    }
+}
